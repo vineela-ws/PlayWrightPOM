@@ -1,0 +1,25 @@
+[
+    {
+      "fname"    :   "Henry",
+      "lname"    :   "Ford",
+      "company"  :   "MT",
+      "address1"     :   "MYPR",
+      "address2"     :   "Indra",
+      "city"     :   "Hyderabad",
+      "postcode" :   "50048",
+      "country"  :   "India",
+      "state"    :   "Telangana"
+    },
+
+    {
+      "fname"    :   "Antony",
+      "lname"    :   "Billa",
+      "company"  :   "TM",
+      "add1"     :   "HFZS",
+      "add2"     :   "Indra",
+      "city"     :   "Hyderabad",
+      "postcode" :   "50047",
+      "country"  :   "India",
+      "state"    :   "Telangana"
+    }
+  ]

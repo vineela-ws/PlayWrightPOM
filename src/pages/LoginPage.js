@@ -1,4 +1,5 @@
 
+import logger from "../utils/LoggerUtil";
 
 exports.LoginPage = class LoginPage{
 
@@ -19,7 +20,8 @@ exports.LoginPage = class LoginPage{
   }
 
   async clickLoginButton(){
-    await this.loginButton.click();
+    await this.loginButton.click();     
+    logger.info("Clicked login button");
   }
 
 }
