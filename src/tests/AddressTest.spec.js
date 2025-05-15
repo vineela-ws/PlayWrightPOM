@@ -23,8 +23,9 @@ for(const address of cdata){
 
     const addressPage = new AddressPage(page);
     addressPage.clickOnNewAddressButton();
-    await page.waitForTimeout(10000);
+    await page.waitForTimeout(5000);
     addressPage.createNewAddress(address.fname,address.lname,address.company,address.address1,address.address2,address.city,address.postcode,address.country,address.state);
+    await page.waitForTimeout(3000);
     addressPage.clickOnContinueButton();
 })
 
